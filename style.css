@@ -1,0 +1,1248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background-color:#000;
+}
+
+.container-fluid {
+    padding-left: 0;
+}
+
+.header {
+    width: 100%;
+    text-align: end;
+    padding-right: 10px;
+    font-size: 20px;
+    margin: 0;
+    background-color: rgb(247, 7, 7);
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.header img {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 3px;
+}
+
+.navbar-expand-md {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar {
+    padding: 0rem 1rem;
+    text-align: center;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main {
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
+}
+
+#imagen {
+    background-image: url("imagenes/1.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+#imagen2 {
+    background-image: url("imagenes/palitos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+#imagen3 {
+    background-image: url("imagenes/niguiris.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+#diseño {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 120px;
+    text-shadow: 0 0 5px #000;
+}
+
+#contenedor {
+    height: 600px;
+    width: 105%;
+}
+
+.row {
+    align-content: flex-start;
+}
+
+.contenedor__items1 {
+    background-image: url("imagenes/carpa2.jpg");
+    background-size: cover;
+    background-position: 55% 0%;
+    background-repeat: no-repeat;
+    padding: auto;
+    height: 50%;
+    border-bottom: 3px solid #000;
+}
+
+.contenedor__items2 {
+    background-image: url("imagenes/3.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    border-bottom: 3px solid #000;
+}
+
+.div_titulo {
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #000;
+
+}
+
+.div__p {
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+}
+
+.div__enlace3 {
+    margin-left: 40%;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+
+}
+
+.div__enlace3:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(43, 39, 39);
+    border-radius: 20px;
+}
+
+.contenedor__items--titulo2 {
+    padding: 20px 20px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #000;
+}
+
+.contenedor__items--enlace4 {
+    margin-left: 40%;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #000;
+}
+
+.contenedor__items--enlace4:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(43, 39, 39);
+    border-radius: 20px;
+
+}
+
+.article__2 {
+    background-image: url("imagenes/imagen3.jpg");
+    background-position: 50% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
+}
+
+.article__2--titulo3 {
+    padding: 20px 20px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #000;
+}
+
+.article__2--informacion {
+    padding: 10px 10px;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+}
+
+.article__2--enlace5 {
+    padding: 10px 10px;
+    margin-left: 35%;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #000;
+}
+
+.article__2--enlace5:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(43, 39, 39);
+    border-radius: 20px;
+}
+
+#footer {
+    background-image: url("imagenes/footer1.svg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.footer__logo img {
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+}
+
+.footer__div {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+}
+
+.footer_div--formulario {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.footer__contacto {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0 0 5px #000;
+}
+
+.footer__contacto:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(43, 39, 39);
+    border-radius: 20px;
+}
+
+.footer__menu {
+    display: none;
+}
+
+.p {
+    text-shadow: 0 0 5px #000;
+}
+
+#iconos {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+
+#iconos a {
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-shadow: 0 0 5px #000;
+}
+
+.quienessomos__article {
+    height: 1480px;
+}
+
+#video {
+    height: 500px;
+    margin-left: 7px;
+}
+
+.quienessomos__article--informacion {
+    text-align: center;
+    background-image: url("imagenes/footer1.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.quienessomos__article--titulo {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #000;
+}
+
+.quienessomos__article--titulo::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+.quienessomos__article--titulo--tamaño {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.quienessomos__article--conceptos {
+    font-size: 20px;
+}
+
+.quienessomos__article2 {
+    height: 700px;
+}
+
+.quienessomos__article2--h2 {
+    background-image: url("imagenes/omakase2.png");
+    height: 300px;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0 3px solid #000;
+    background-repeat: no-repeat;
+}
+
+.quienessomos__article2--div {
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+    background-image: url("imagenes/quienessomos.svg");
+    background-repeat: no-repeat;
+}
+
+.quienessomos__article--div--h3 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.quienessomos__article--div--h3::first-letter {
+    color: red;
+    font-size: 60px;
+}
+
+.quienessomos__article--div--concepto {
+    font-size: 23px;
+}
+
+.evento__article1 {
+    height: 1400px;
+}
+
+.evento__article1--h2 {
+    background-image: url("imagenes/pescado22jpg.jpg");
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60px;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
+}
+
+.evento__article1--definicion {
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+}
+
+.evento__article1--h3 {
+    font-size: 60px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.evento__article1--titulo {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.evento__article1--titulo::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+.evento__article1--concepto {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.evento__article2 {
+    height: 800px;
+}
+
+.evento__article2--h2 {
+    height: 300px;
+    background-image: url("imagenes/koi3.jpg");
+    background-position: 70% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 5%;
+}
+
+.evento__article2--formulario {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 0 0 5px #000;
+
+}
+
+.evento__article2--formulario--titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+
+.evento__article2--formulario--titulo::first-letter {
+    color: red;
+    font-size: 60px;
+}
+
+.evento__article2--formulario--nombre {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.evento__article2--formulario--tamaño {
+    border-radius: 10px;
+    margin: 6px 40px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+/*comienzo de medias queries*******
+    **********************
+    *************************/
+@media (min-width:364px) {
+    #contenedor {
+        width: 104%;
+    }
+
+    .quienessomos__article--titulo {
+        font-size: 40px;
+    }
+
+    .quienessomos__article--titulo::first-letter {
+        font-size: 70px;
+    }
+
+    .quienessomos__article--titulo--tamaño {
+        font-size: 50px;
+    }
+
+    .quienessomos__article--conceptos {
+        font-size: 21.5px;
+    }
+
+    .quienessomos__article2 {
+        height: 700px;
+    }
+
+    .quienessomos__article2--h2 {
+        background-image: url("imagenes/omakase2.png");
+        height: 250px;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .quienessomos__article--div--h3 {
+        font-size: 50px;
+    }
+
+    .quienessomos__article--div--concepto {
+        font-size: 27px;
+    }
+}
+
+@media (min-width:414px) {
+    .quienessomos__article--conceptos {
+        font-size: 23px;
+    }
+
+    .quienessomos__article--div--concepto {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:495px) {
+    #contenedor {
+        height: 550px;
+        width: 103%;
+    }
+
+    .div_titulo {
+        font-size: 30px;
+    }
+
+    .div__p {
+        font-size: 16px;
+    }
+
+    .div__enlace3 {
+        margin-left: 42%;
+        font-size: 25px;
+    }
+
+    .contenedor__items--titulo2 {
+        padding: 10px 30px;
+        font-size: 50px;
+    }
+
+    .contenedor__items--enlace4 {
+        margin-left: 40%;
+        font-size: 30px;
+    }
+
+    .article__2 {
+        height: 270px;
+
+    }
+
+    .article__2--titulo3 {
+        font-size: 35px;
+    }
+
+    .article__2--informacion {
+        font-size: 30px;
+    }
+
+    .article__2--enlace5 {
+        margin-left: 40%;
+    }
+
+    .quienessomos__article--titulo {
+        font-size: 50px;
+    }
+
+    .quienessomos__article--titulo::first-letter {
+        font-size: 80px;
+    }
+
+    .quienessomos__article--titulo--tamaño {
+        font-size: 60px;
+    }
+
+    .quienessomos__article--conceptos {
+        font-size: 25.5px;
+    }
+
+    .quienessomos__article2 {
+        height: 1000px;
+    }
+
+    .quienessomos__article2--h2 {
+        background-image: url("imagenes/omakase2.png");
+        height: 550px;
+        background-size: 100% 100%;
+        background-position: center;
+        border: 0 3px solid #000;
+        background-repeat: no-repeat;
+    }
+
+    .quienessomos__article--div--h3 {
+        font-size: 60px;
+    }
+
+    .quienessomos__article--div--h3::first-letter {
+        font-size: 80px;
+    }
+
+    .quienessomos__article--div--concepto {
+        font-size: 33px;
+    }
+
+    .evento__article1 {
+        height: 1200px;
+    }
+
+    .evento__article1--h2 {
+        height: 600px;
+        padding-top: 30%;
+    }
+
+    .evento__article1--h3 {
+        font-size: 50px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+
+    }
+
+    .evento__article2 {
+        height: 800px;
+    }
+
+    .evento__article2--h2 {
+        height: 350px;
+        background-position: 100% 100%;
+        font-size: 60px;
+        padding-top: 20%;
+    }
+
+    .evento__article2--formulario {
+        height: 450px;
+
+    }
+}
+
+@media (min-width:600px) {
+    #contenedor {
+        width: 102.5%;
+    }
+
+    #imagen {
+        height: 400px;
+    }
+
+    #imagen2 {
+        height: 400px;
+    }
+
+    #imagen3 {
+        height: 400px;
+    }
+
+    #diseño {
+        font-size: 70px;
+    }
+
+    .div_titulo {
+        font-size: 35px;
+    }
+
+    .div__p {
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+
+    .div__enlace3 {
+        margin-left: 45%;
+    }
+
+    .article__2 {
+        height: 300px;
+    }
+
+    .article__2--titulo3 {
+        font-size: 40px;
+    }
+
+    .article__2--informacion {
+        font-size: 35px;
+    }
+
+    .article__2--enlace5 {
+        margin-left: 45%;
+    }
+
+    #footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 750px;
+    }
+
+    .footer__div {
+        margin-top: 100px;
+    }
+
+    .footer__logo img {
+        width: px;
+        height: 190px;
+    }
+
+    .footer_div--formulario {
+        margin-top: 300px;
+    }
+
+    .quienessomos__article--conceptos {
+        font-size: 27.3px;
+    }
+
+    .quienessomos__article--div--concepto {
+        font-size: 34px;
+    }
+}
+
+@media (min-width:616px) {
+    #footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 1000px;
+    }
+
+    .footer__menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-shadow: 0 0 5px #000;
+    }
+
+    .footer__menu--item {
+        font-size: 20px;
+    }
+
+    .footer__menu--item--mayuscula {
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+
+    .quienessomos__article--titulo {
+        font-size: 50px;
+    }
+
+    .quienessomos__article--titulo::first-letter {
+        font-size: 80px;
+    }
+
+    .quienessomos__article--titulo--tamaño {
+        font-size: 60px;
+    }
+
+    .quienessomos__article--conceptos {
+        font-size: 28px;
+    }
+
+    .quienessomos__article2 {
+        height: 1000px;
+    }
+
+    .quienessomos__article2--h2 {
+        height: 600px;
+
+    }
+
+    .quienessomos__article--div--h3 {
+        font-size: 60px;
+    }
+
+    .quienessomos__article--div--h3::first-letter {
+        font-size: 80px;
+    }
+
+    .quienessomos__article--div--concepto {
+        font-size: 34px;
+    }
+}
+
+@media (min-width:700px) {
+    #contenedor {
+        width: 102%;
+    }
+
+    .quienessomos__article--conceptos {
+        font-size: 28.1px;
+    }
+
+    .quienessomos__article--div--concepto {
+        font-size: 33px;
+    }
+}
+
+@media (min-width:768px) {
+    #contenedor {
+        height: 700px;
+        width: 101.5%;
+    }
+
+    .div_titulo {
+        font-size: 35px;
+    }
+
+    .div__p {
+        font-size: 20px;
+    }
+
+    .contenedor__items1 {
+        border-right: 3px solid #000 !important;
+        width: 50%;
+    }
+
+    .contenedor__items2 {
+        width: 400px;
+    }
+
+    #footer {
+        height: 500px;
+        justify-content: center;
+    }
+
+    .footer__div {
+        width: 33.33%;
+    }
+
+    .footer__logo img {
+        margin-top: 0;
+    }
+
+    .footer_div--formulario {
+        width: 33.33%;
+        margin-top: 0;
+    }
+
+    .footer__menu {
+        width: 33.33%;
+    }
+
+    .footer__menu--item {
+        list-style-type: none;
+    }
+
+    .quienessomos__article {
+        height: 1020px;
+    }
+
+    #video {
+        height: 300px;
+    }
+
+    .quienessomos__article--informacion {
+        text-align: center;
+        height: 700px;
+        background-image: url("imagenes/footer1.svg");
+        background-position: bottom;
+    }
+
+    .quienessomos__article--titulo {
+        font-size: 40px;
+    }
+
+    .quienessomos__article--titulo::first-letter {
+        font-size: 60px;
+    }
+
+    .quienessomos__article--titulo--tamaño {
+        font-size: 50px;
+    }
+
+    .quienessomos__article--conceptos {
+        font-size: 24px;
+    }
+
+    .quienessomos__article2 {
+        height: 770px;
+    }
+
+    .quienessomos__article2--h2 {
+        background-image: url("imagenes/omakase2.png");
+        height: 300px;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .quienessomos__article2--div {
+        background-image: url("imagenes/quienessomos.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .quienessomos__article--div--h3 {
+        font-size: 50px;
+    }
+
+    .quienessomos__article--div--h3::first-letter {
+        font-size: 70px;
+    }
+
+    .quienessomos__article--div--concepto {
+        font-size: 30px;
+    }
+    .evento__article1 {
+        height: 700px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .evento__article1--h2 {
+        height: 700px;
+        font-size: 60px;
+        padding-top: 25%;
+    }
+    
+    .evento__article1--definicion {
+        background-image: url("imagenes/quienessomos.svg");
+        background-repeat: no-repeat;
+    }
+    .evento__article2 {
+        height: 700px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .evento__article2--h2 {
+        height: 700px;
+        font-size: 60px;
+        padding-top: 25%;
+        background-position: 70% 30%;
+    }
+}
+
+@media (min-width: 993px) {
+
+    .quienessomos__article {
+        height: 900px;
+    }
+
+    #video {
+        height: 700px;
+
+    }
+
+    .quienessomos__article--informacion {
+        height: 900px;
+        background-image: url("imagenes/footer1.svg");
+        background-position: bottom;
+    }
+
+    .quienessomos__article2 {
+        height: 600px;
+        display: flex;
+        flex-direction: row-reverse;
+        background-image: url("imagenes/quienessomos.svg");
+    }
+
+    .quienessomos__article2--h2 {
+        background-image: url("imagenes/omakase2.png");
+        height: 590px;
+        background-size: 100% 100%;
+    }
+}
+
+@media (min-width:1000px) {
+
+    #contenedor {
+        height: 800px;
+        width: 101.5%;
+    }
+
+    .div_titulo {
+        font-size: 50px;
+    }
+
+    .div__p {
+        font-size: 25px;
+    }
+
+    .contenedor__items--titulo2 {
+        padding: 10px 30px;
+        font-size: 65px;
+    }
+
+    #imagen {
+        height: 500px;
+    }
+
+    #imagen2 {
+        height: 500px;
+    }
+
+    #imagen3 {
+        height: 500px;
+    }
+
+    #diseño {
+        font-size: 100px;
+    }
+
+    .article__2 {
+        height: 500px;
+    }
+
+    .article__2--titulo3 {
+        font-size: 80px;
+    }
+
+    .article__2--informacion {
+        font-size: 75px;
+    }
+
+    .article__2--enlace5 {
+        margin-left: 47%;
+    }
+
+    #footer {
+        height: 540px;
+    }
+
+    .footer__div {
+        width: 33.33%;
+    }
+
+    .footer__logo img {
+        margin-top: 50px;
+    }
+
+    .footer_div--formulario {
+        width: 33.33%;
+        margin-top: 100px;
+    }
+
+    .footer__menu {
+        width: 33.33%;
+        margin-top: 100px;
+    }
+
+    .footer__menu--item--mayuscula {
+        font-size: 40px;
+    }
+
+    .footer__menu--item {
+        list-style-type: none;
+    }
+
+    #iconos {
+        margin-left: 30px;
+    }
+    
+    .evento__article1--h3 {
+        font-size: 60px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+    
+    }
+    
+    .evento__article1--titulo {
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    
+    .evento__article1--titulo::first-letter {
+        color: red;
+        font-size: 70px;
+    }
+    
+    .evento__article1--concepto {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .evento__article2 {
+        height: 650px;
+    }
+    
+    .evento__article2--h2 {
+        height: 650px;
+        font-size: 80px;
+        padding-top: 15%;
+    }
+    .evento__article2--formulario--titulo {
+        font-size: 40px;
+    }
+}
+
+@media (min-width:1200px) {
+    #contenedor {
+        width: 101%;
+    }
+
+    .article__2--titulo3 {
+        font-size: 100px;
+    }
+
+    .article__2--informacion {
+        font-size: 90px;
+    }
+
+    .article__2--enlace5 {
+        margin-left: 47%;
+    }
+
+    #footer {
+        height: 550px;
+    }
+
+    .footer__div {
+        width: 30%;
+    }
+
+    .footer__logo img {
+        margin-top: 50px;
+    }
+
+    .footer__div--p {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .footer__contacto {
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+
+    .footer_div--formulario {
+        width: 30%;
+        margin-top: 100px;
+    }
+
+    .footer__menu {
+        width: 40%;
+        margin-top: 100px;
+    }
+
+    .footer__menu--item--mayuscula {
+        font-size: 50px;
+    }
+
+    .footer__menu--item {
+        list-style-type: none;
+        font-size: 25px;
+        margin-right: 5px;
+    }
+
+    .quienessomos__article {
+        height: 900px;
+    }
+
+    #video {
+        height: 890px;
+
+    }
+
+    .quienessomos__article--informacion {
+        height: 900px;
+        background-image: url("imagenes/footer1.svg");
+    }
+
+    .quienessomos__article--titulo {
+        font-size: 50px;
+    }
+
+    .quienessomos__article--titulo::first-letter {
+        font-size: 80px;
+    }
+
+    .quienessomos__article--titulo--tamaño {
+        padding-top: 10px;
+        font-size: 60px;
+    }
+
+    .quienessomos__article--conceptos {
+        font-size: 25px;
+    }
+
+    .quienessomos__article2 {
+        height: 600px;
+    }
+
+    .quienessomos__article2--h2 {
+        background-image: url("imagenes/omakase2.png");
+        height: 600px;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .quienessomos__article--div--h3 {
+        font-size: 50px;
+    }
+
+    .quienessomos__article--div--h3::first-letter {
+        font-size: 70px;
+    }
+
+    .quienessomos__article--div--concepto {
+        font-size: 36px;
+    }
+    .evento__article1 {
+        height: 800px;
+    }
+    .evento__article1--h2 {
+        height: 750px;
+        font-size: 80px;
+        padding-top: 10%;
+    }
+    .evento__article1--h3 {
+        padding-top: 30px;
+        font-size: 70px;
+    }
+    
+    .evento__article1--titulo {
+        font-size: 40px;
+    }
+    
+    .evento__article1--titulo::first-letter {
+        font-size: 80px;
+    }
+    
+    .evento__article1--concepto {
+        padding: 0 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .evento__article2 {
+        height: 700px;
+    }
+    
+    .evento__article2--h2 {
+        height: 700px;
+        font-size: 100px;
+        padding-top: 5%;
+    }
+
+    .evento__article2--formulario--titulo {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+}
+  
