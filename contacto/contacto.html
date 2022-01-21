@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/03a03447f0.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../logo/sushi.png">
     <link rel="stylesheet" href="../style.css">
@@ -31,7 +32,7 @@
     <!--================================================-->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="index.html"><img src="../logo/sushi.png" alt="logo"> goma</a>
+        <a class="navbar-brand" href="../index.html"><img src="../logo/sushi.png" alt="logo"> goma</a>
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -96,39 +97,39 @@
     <!--===============================================================-->
     <!---------------------comienzo del section-------------------------------->
     <!--===============================================================-->
-    <article class="contacto__article1">
-        <h2 class="contacto__article1--img">
-            <img src="../imagenes/sashimimoriwase.jpg" alt="sashimi">
-        </h2>
-        <form class="contacto__article1--formulario">
-            <h2 class="contacto__article1--formulario--titulo">contacto.</h2>
-            <label for="nombre" class="contacto__article1--formulario--nombre">nombre y apellido:</label>
-            <input type="text" name="nombre" placeholder="nombre y apellido"
-                class="contacto__article1--formulario--tamaño">
-            <label for="email" class="contacto__article1--formulario--nombre">email:</label>
-            <input type="email" name=email placeholder="nombre@ghhh.com" class="contacto__article1--formulario--tamaño"
-                required>
-            <label for="telefono" class="contacto__article1--formulario--nombre">telefono:</label>
-            <input type="text" name="telefono" placeholder="telefono" class="contacto__article1--formulario--tamaño"
-                required>
-            <label for="fecha" class="contacto__article1--formulario--nombre">fecha</label>
-            <input type="datetime-local" name="fecha" class="contacto__article1--formulario--tamaño" required>
-            <label for="cantidad" class="contacto__article1--formulario--nombre">cantidad:</label>
-            <input type="number" name="cantidad" placeholder="cantidad" class="contacto__article1--formulario--tamaño"
-                required>
-            <label for="direccion" class="contacto__article1--formulario--nombre">direccion:</label>
-            <input type="text" name="direccion" placeholder="direccion" class="contacto__article1--formulario--tamaño"
-                required>
-            <input type="submit" value="enviar" class="contacto__article1--formulario--tamaño" />
-        </form>
-    </article>
-    <article class="contacto__article2">
-        <h2><iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4644.271383027914!2d-58.380097401936304!3d-34.60426800175372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1637775634477!5m2!1ses!2sar"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></h2>
-    </article>
+    <section class="container-fluid">
+        <article class="contacto__article1 row">
+            <div class="contacto__article1--img col-xs-12 col-md-6">
+            </div>
+            <form class="contacto__article1--formulario col-xs-12 col-md-6">
+                <h2 data-aos="fade-up" data-aos-duration="3000" class="contacto__article1--formulario--titulo">contacto.</h2>
+                <label for="nombre" class="contacto__article1--formulario--nombre">nombre y apellido:</label>
+                <input type="text" name="nombre" placeholder="nombre y apellido"
+                    class="contacto__article1--formulario--tamaño">
+                <label for="email" class="contacto__article1--formulario--nombre">email:</label>
+                <input type="email" name=email placeholder="nombre@ghhh.com"
+                    class="contacto__article1--formulario--tamaño" required>
+                <label for="telefono" class="contacto__article1--formulario--nombre">telefono:</label>
+                <input type="text" name="telefono" placeholder="telefono" class="contacto__article1--formulario--tamaño"
+                    required>
+                <label for="fecha" class="contacto__article1--formulario--nombre">fecha</label>
+                <input type="datetime-local" name="fecha" class="contacto__article1--formulario--tamaño" required>
+                <label for="cantidad" class="contacto__article1--formulario--nombre">cantidad:</label>
+                <input type="number" name="cantidad" placeholder="cantidad"
+                    class="contacto__article1--formulario--tamaño" required>
+                <label for="direccion" class="contacto__article1--formulario--nombre">direccion:</label>
+                <input type="text" name="direccion" placeholder="direccion"
+                    class="contacto__article1--formulario--tamaño" required>
+                <input type="submit" value="enviar" class="contacto__article1--formulario--tamaño" />
+            </form>
+        </article>
+        <article class="contacto__article2 row ">
+            <h2 data-aos="fade-up" data-aos-duration="3000" class="col-xs-12 col-md-12 contacto_mapa">
+                encuentranos.<iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4644.271383027914!2d-58.380097401936304!3d-34.60426800175372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1637775634477!5m2!1ses!2sar"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></h2>
+        </article>
     </section>
-    </header>
     <!--======================================-->
     <!------------cierre de la section---------->
     <!---=====================================-->
@@ -187,6 +188,10 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 

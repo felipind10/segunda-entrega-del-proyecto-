@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/03a03447f0.js" crossorigin="anonymous"></script>
@@ -13,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Noto+Sans+JP:wght@100&family=Oswald&display=swap"
         rel="stylesheet">
-        <title>carta</title>
+    <title>carta</title>
 </head>
 
 <body>
@@ -31,7 +32,7 @@
     <!--================================================-->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="index.html"><img src="../logo/sushi.png" alt="logo"> goma</a>
+        <a class="navbar-brand" href="../index.html"><img src="../logo/sushi.png" alt="logo"> goma</a>
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -94,14 +95,15 @@
     <!--===============================================================-->
     <!---------------------cierre del main-------------------------------->
     <!--===============================================================-->
-    <section>
-        <article class="carta__article1">
-            <h2 class="carta__article1--img">
-                <img src="../imagenes/ceviche1.jpeg" alt="ceviches">
-            </h2>
-            <dl class="carta__article1--definicion">
-                <dt class="carta__article1--titulo1">
-                    <h2>ceviches.</h2>
+    <section class="container-fluid">
+        <article class="carta__article1 row">
+            <div id="carta__galeria" class="col-xs-12 col-md-6">
+                <div class="col-xs-12  col-sm-12 col-md-12 carta__galeria1 "></div>
+                <div class="col-xs-12 col-md-12 carta__galeria2 "></div>
+            </div>
+            <dl class="carta__article1--definicion col-xs-12 col-md-6">
+                <dt class="carta__article1--titulo1 ">
+                    <h2 data-aos="fade-up" data-aos-duration="3000">ceviches.</h2>
                 </dt>
                 <dt class="carta__article1--titulo">rocoto</dt>
                 <dd class="carta__article1--concepto">
@@ -144,32 +146,17 @@
                 </dd>
             </dl>
         </article>
-        <article class="carta__article2">
-            <div class="carta__article2--div">
-                <h2 class="carta__article2--img"><img src="../imagenes/tiradito 2.jpg" alt="ceviches"></h2>
-                <h2 class="carta__article2--img"><img src="../imagenes/niguiris2.jpeg" alt="ceviches"></h2>
+        <article class="carta__article2--galeria row">
+            <div class="carta__article2--div col-xs-12 col-md-6">
+                <div class="carta_galeria3"></div>
+                <div class="carta_galeria4"></div>
+                <div class="carta_galeria5"></div>
             </div>
-            <dl class="carta__article2--definicion">
+            <dl class="carta__article2--definicion col-xs-12 col-md-6">
                 <dt class="carta__article2--titulo1">
-                    <h2>tiraditos & niguiris.</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="3000">tiraditos & niguiris.</h2>
                 </dt>
-                <dt class="carta__article2--titulo">carpaccion</dt>
-                <dd class="carta__articl21--concepto">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit delectus provident illo? Ipsum
-                        quia iure dolores quas sint aperiam, sed molestiae rem atque perferendis exercitationem, commodi
-                        autem illum dolorum impedit?
-                    </p>
-                </dd>
-                <dt class="carta__article1--titulo">peru</dt>
-                <dd class="carta__article1--concepto">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit delectus provident illo? Ipsum
-                        quia iure dolores quas sint aperiam, sed molestiae rem atque perferendis exercitationem, commodi
-                        autem illum dolorum impedit?
-                    </p>
-                </dd>
-                <dt class="carta__article2--titulo">clasicos</dt>
+                <dt class="carta__article2--titulo">carpaccio.</dt>
                 <dd class="carta__article2--concepto">
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit delectus provident illo? Ipsum
@@ -177,14 +164,30 @@
                         autem illum dolorum impedit?
                     </p>
                 </dd>
-                <dt class="carta__article1--titulo">evil ebil</dt>
-                <dd class="carta__article1--concepto">
+                <dt class="carta__article2--titulo">peru.</dt>
+                <dd class="carta__article2--concepto">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit delectus provident illo? Ipsum
+                        quia iure dolores quas sint aperiam, sed molestiae rem atque perferendis exercitationem, commodi
+                        autem illum dolorum impedit?
+                    </p>
+                </dd>
+                <dt class="carta__article2--titulo">clasicos.</dt>
+                <dd class="carta__article2--concepto">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit delectus provident illo? Ipsum
+                        quia iure dolores quas sint aperiam, sed molestiae rem atque perferendis exercitationem, commodi
+                        autem illum dolorum impedit?
+                    </p>
+                </dd>
+                <dt class="carta__article2--titulo">evil ebil.</dt>
+                <dd class="carta__article2--concepto">
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit delectus provident illo? Ipsum
                         quia iure dolores quas sint aperiam, sed molestiae rem atque perferendis exercitationem.
                     </p>
                 </dd>
-                <dt class="carta__article2--titulo">ponzu</dt>
+                <dt class="carta__article2--titulo">ponzu.</dt>
                 <dd class="carta__article2--concepto">
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit delectus provident illo? Ipsum
@@ -194,15 +197,19 @@
                 </dd>
             </dl>
         </article>
-        <article class="carta__article3">
-            <h2 class="carta__article3--img">
-                <img src="../imagenes/rolls.jpg" alt="ceviches">
-            </h2>
-            <dl class="carta__article3--definicion">
+        <article class="carta__article3 row">
+            <div class=" carta--galeria--article3 col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-5 carta__galeria6"></div>
+                <div class="col-xs-12 col-md-5 carta__galeria7"></div>
+                <div class="col-xs-12 col-md-5 carta__galeria8"></div>
+                <div class="col-xs-12 col-md-5 carta__galeria9"></div>
+                <div class="col-xs-12 col-md-12 carta__galeria10"></div>
+            </div>
+            <dl class="carta__article3--definicion col-xs-12 col-md-6">
                 <dt class="carta__article3--titulo1">
-                    <h2>rollos y combinados.</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="3000">rollos & combinados.</h2>
                 </dt>
-                <dt class="carta__article3--titulo">combina1</dt>
+                <dt class="carta__article3--titulo">combinado1</dt>
                 <dd class="carta__article3--concepto">
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit delectus provident illo? Ipsum
@@ -301,6 +308,10 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 

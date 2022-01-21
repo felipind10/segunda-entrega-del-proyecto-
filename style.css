@@ -7,7 +7,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     color: #fff;
-    background-color:#000;
+    background-color: #000;
 }
 
 .container-fluid {
@@ -99,11 +99,11 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 120px;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 5px #000;
 }
 
 #contenedor {
-    height: 600px;
+    height: 900px;
     width: 105%;
 }
 
@@ -117,7 +117,7 @@ body {
     background-position: 55% 0%;
     background-repeat: no-repeat;
     padding: auto;
-    height: 50%;
+    height: 350px;
     border-bottom: 3px solid #000;
 }
 
@@ -126,21 +126,22 @@ body {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50%;
+    height: 350px;
     border-bottom: 3px solid #000;
 }
 
 .div_titulo {
     padding: 10px 10px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 5px #000;
+    font-weight: bold;
 
 }
 
 .div__p {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     text-shadow: 0 0 5px #000;
 }
@@ -165,14 +166,15 @@ body {
 
 .contenedor__items--titulo2 {
     padding: 20px 20px;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 5px #000;
+    font-weight: bold;
 }
 
 .contenedor__items--enlace4 {
-    margin-left: 40%;
+    margin-left: 39%;
     text-align: center;
     font-size: 25px;
     text-decoration: none;
@@ -194,25 +196,25 @@ body {
     background-position: 50% 20%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 400px;
     width: 100%;
     border-bottom: 3px solid #000;
     border-top: 3px solid #000;
 }
 
 .article__2--titulo3 {
-    padding: 20px 20px;
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 5px #000;
+    font-weight: bold;
 }
 
 .article__2--informacion {
-    padding: 10px 10px;
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     text-shadow: 0 0 5px #000;
+    font-weight: bold;
 }
 
 .article__2--enlace5 {
@@ -464,6 +466,230 @@ body {
     border: 0;
 }
 
+.carta__galeria1 {
+    background-image: url("imagenes/ceviche1.jpeg");
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.carta__galeria2 {
+    background-image: url("imagenes/sashimi5.webp");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: none;
+}
+
+.carta__article1--definicion {
+    background-image: url("imagenes/quienessomos.svg");
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-shadow: 0 0 5px #000;
+}
+
+.carta__article1--titulo1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.carta__article1--titulo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.carta__article1--titulo::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+.carta__article1--concepto {
+    font-size: 20px;
+}
+
+.carta_galeria3 {
+    background-image: url("imagenes/tiradito\ 2.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.carta_galeria4 {
+    background-image: url("imagenes/niguiris2.jpg");
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.carta_galeria5 {
+    background-image: url("imagenes/tiraditos\ 5.jpg");
+    height: 800px;
+    display: none;
+}
+
+.carta__article2--definicion {
+    background-image: url("imagenes/quienessomos.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 5px;
+    text-shadow: 0 0 5px #000;
+}
+
+.carta__article2--titulo1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.carta__article2--titulo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.carta__article2--titulo::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+.carta__article2--concepto {
+    font-size: 20px;
+}
+
+.carta__galeria6 {
+    background-image: url("imagenes/rolls.webp");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: 100% 30%;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+.carta__galeria7 {
+    background-image: url("imagenes/combinados\ \(6\).jpg");
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.carta__article3--definicion {
+    background-image: url("imagenes/quienessomos.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 5px;
+    text-shadow: 0 0 5px #000;
+    height: 1320px;
+}
+
+.carta__article3--titulo1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.carta__article3--titulo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.carta__article3--titulo::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+.carta__article3--concepto {
+    font-size: 20px;
+}
+
+.contacto__article1 {
+    height: 800px;
+}
+
+.contacto__article1--formulario {
+    background-image: url("imagenes/quienessomos.svg");
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.contacto__article1--formulario--titulo {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 10px #000;
+    text-transform: uppercase;
+}
+
+.contacto__article1--formulario--nombre {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.contacto__article1--formulario--tamaño {
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: 0;
+    padding: 10px;
+}
+
+.contacto__article2 {
+    height: 300px;
+}
+
+.contacto_mapa {
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contacto_mapa::first-letter {
+    color: red;
+    font-size: 60px;
+}
+
 /*comienzo de medias queries*******
     **********************
     *************************/
@@ -507,6 +733,14 @@ body {
     .quienessomos__article--div--concepto {
         font-size: 27px;
     }
+
+    .carta__galeria1 {
+        height: 450px;
+    }
+
+    .carta__article3--definicion {
+        height: 1200px;
+    }
 }
 
 @media (min-width:414px) {
@@ -517,20 +751,44 @@ body {
     .quienessomos__article--div--concepto {
         font-size: 30px;
     }
+
+    .carta_galeria3 {
+        height: 300px;
+    }
+
+    .carta_galeria4 {
+        height: 350px;
+    }
+
+    .carta__galeria6 {
+        height: 300px;
+    }
+
+    .carta__galeria7 {
+        height: 300px;
+    }
+
+    .carta__article3--definicion {
+        height: 1000px;
+    }
 }
 
 @media (min-width:495px) {
+    #diseño {
+        font-size: 50px;
+    }
+
     #contenedor {
-        height: 550px;
+        height: 800px;
         width: 103%;
     }
 
     .div_titulo {
-        font-size: 30px;
+        font-size: 50px;
     }
 
     .div__p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .div__enlace3 {
@@ -540,7 +798,7 @@ body {
 
     .contenedor__items--titulo2 {
         padding: 10px 30px;
-        font-size: 50px;
+        font-size: 65px;
     }
 
     .contenedor__items--enlace4 {
@@ -549,16 +807,16 @@ body {
     }
 
     .article__2 {
-        height: 270px;
+        height: 300px;
 
     }
 
     .article__2--titulo3 {
-        font-size: 35px;
+        font-size: 50px;
     }
 
     .article__2--informacion {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .article__2--enlace5 {
@@ -637,6 +895,78 @@ body {
         height: 450px;
 
     }
+
+    .carta__galeria1 {
+        height: 500px;
+    }
+
+    .carta__article1--titulo1 h2 {
+        font-size: 60px;
+    }
+
+    .carta__article1--titulo {
+        font-size: 40px;
+    }
+
+    .carta__article1--titulo::first-letter {
+        font-size: 80px;
+    }
+
+    .carta__article1--concepto {
+        font-size: 30px;
+    }
+
+    .carta_galeria3 {
+        height: 400px;
+    }
+
+    .carta_galeria4 {
+        height: 400px;
+    }
+
+    .carta__article2--titulo1 h2 {
+        font-size: 60px;
+    }
+
+    .carta__article2--titulo {
+        font-size: 40px;
+    }
+
+    .carta__article2--titulo::first-letter {
+        font-size: 80px;
+    }
+
+    .carta__article2--concepto {
+        font-size: 30px;
+    }
+
+    .carta__galeria6 {
+        height: 300px;
+    }
+
+    .carta__galeria7 {
+        height: 300px;
+    }
+
+    .carta__article3--titulo1 h2 {
+        font-size: 60px;
+    }
+
+    .carta__article3--titulo {
+        font-size: 40px;
+    }
+
+    .carta__article3--titulo::first-letter {
+        font-size: 80px;
+    }
+
+    .carta__article3--concepto {
+        font-size: 25px;
+    }
+
+    .carta__article3--definicion {
+        height: 1500px;
+    }
 }
 
 @media (min-width:600px) {
@@ -661,11 +991,11 @@ body {
     }
 
     .div_titulo {
-        font-size: 35px;
+        font-size: 50px;
     }
 
     .div__p {
-        font-size: 18px;
+        font-size: 20px;
         padding: 10px 10px;
     }
 
@@ -674,19 +1004,20 @@ body {
     }
 
     .article__2 {
-        height: 300px;
+        height: 400px;
     }
 
     .article__2--titulo3 {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .article__2--informacion {
-        font-size: 35px;
+        font-size: 50px;
     }
 
     .article__2--enlace5 {
-        margin-left: 45%;
+        margin-left: 40%;
+        font-size: 30px;
     }
 
     #footer {
@@ -715,6 +1046,78 @@ body {
 
     .quienessomos__article--div--concepto {
         font-size: 34px;
+    }
+
+    .carta__galeria1 {
+        height: 600px;
+    }
+
+    .carta__article1--titulo1 h2 {
+        font-size: 80px;
+    }
+
+    .carta__article1--titulo {
+        font-size: 50px;
+    }
+
+    .carta__article1--titulo::first-letter {
+        font-size: 90px;
+    }
+
+    .carta__article1--concepto {
+        font-size: 35px;
+    }
+
+    .carta_galeria3 {
+        height: 500px;
+    }
+
+    .carta_galeria4 {
+        height: 500px;
+    }
+
+    .carta__article2--titulo1 h2 {
+        font-size: 80px;
+    }
+
+    .carta__article2--titulo {
+        font-size: 50px;
+    }
+
+    .carta__article2--titulo::first-letter {
+        font-size: 90px;
+    }
+
+    .carta__article2--concepto {
+        font-size: 35px;
+    }
+
+    .carta__galeria6 {
+        height: 400px;
+    }
+
+    .carta__galeria7 {
+        height: 400px;
+    }
+
+    .carta__article3--titulo1 h2 {
+        font-size: 80px;
+    }
+
+    .carta__article3--titulo {
+        font-size: 50px;
+    }
+
+    .carta__article3--titulo::first-letter {
+        font-size: 90px;
+    }
+
+    .carta__article3--concepto {
+        font-size: 30px;
+    }
+
+    .carta__article3--definicion {
+        height: 1750px;
     }
 }
 
@@ -793,29 +1196,85 @@ body {
     .quienessomos__article--div--concepto {
         font-size: 33px;
     }
+
+    .carta__galeria1 {
+        height: 800px;
+    }
+
+    .carta__article1--titulo1 h2 {
+        font-size: 60px;
+    }
+
+    .carta__article1--titulo {
+        font-size: 40px;
+    }
+
+    .carta__article1--titulo::first-letter {
+        font-size: 80px;
+    }
+
+    .carta__article1--concepto {
+        font-size: 30px;
+        padding-right: 25px;
+    }
+
+    .carta_galeria3 {
+        height: 600px;
+    }
+
+    .carta_galeria4 {
+        height: 600px;
+    }
+
+    .carta__galeria6 {
+        height: 500px;
+    }
+
+    .carta__galeria7 {
+        height: 500px;
+    }
+
+    .carta__article3--definicion {
+        height: 1600px;
+    }
 }
 
 @media (min-width:768px) {
+    .navbar-expand-md .navbar-collapse {
+        justify-content:flex-end;
+        
+        
+    }
+
     #contenedor {
-        height: 700px;
+        height: 900px;
         width: 101.5%;
     }
 
+    .contenedor__items1 {
+        height: 450px;
+        border-right: 3px solid #000 !important;
+        width: 50%;
+    }
+
     .div_titulo {
-        font-size: 35px;
+        font-size: 50px;
     }
 
     .div__p {
         font-size: 20px;
     }
 
-    .contenedor__items1 {
-        border-right: 3px solid #000 !important;
-        width: 50%;
+    .contenedor__items2 {
+        height: 450px;
     }
 
-    .contenedor__items2 {
-        width: 400px;
+    .article__2--titulo3 {
+        font-size: 80px;
+    }
+
+    .article__2--informacion {
+        font-size: 60px;
     }
 
     #footer {
@@ -904,34 +1363,217 @@ body {
     .quienessomos__article--div--concepto {
         font-size: 30px;
     }
+
     .evento__article1 {
         height: 700px;
         display: flex;
         flex-direction: row-reverse;
     }
-    
+
     .evento__article1--h2 {
         height: 700px;
         font-size: 60px;
         padding-top: 25%;
     }
-    
+
     .evento__article1--definicion {
         background-image: url("imagenes/quienessomos.svg");
         background-repeat: no-repeat;
     }
+
     .evento__article2 {
         height: 700px;
         display: flex;
         flex-direction: row-reverse;
     }
-    
+
     .evento__article2--h2 {
         height: 700px;
         font-size: 60px;
         padding-top: 25%;
         background-position: 70% 30%;
     }
+
+    .carta__article1 {
+        height: 1000px;
+    }
+
+    .carta__galeria1 {
+        height: 500px;
+    }
+
+    .carta__galeria2 {
+        display: flex;
+        height: 500px;
+        background-position: 50% 100%;
+        background-size: cover;
+        margin-left: 8px;
+        margin-top: 5px;
+        border-radius: 10px;
+    }
+
+    .carta__article1--definicion {
+        margin-top: 0;
+    }
+
+    .carta__article1--titulo1 h2 {
+        font-size: 40px;
+    }
+
+    .carta__article1--titulo {
+        font-size: 25px;
+    }
+
+    .carta__article1--titulo::first-letter {
+        font-size: 40px;
+    }
+
+    .carta__article1--concepto {
+        font-size: 17px;
+    }
+
+    .carta__article2--galeria {
+        height: 1000px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .carta_galeria3 {
+        height: 300px;
+        margin-top: 10px;
+
+    }
+
+    .carta_galeria4 {
+        height: 300px;
+        margin-top: 10px;
+        padding-left: 50px;
+    }
+
+    .carta_galeria5 {
+        display: flex;
+        height: 370px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .col-md-6 {
+        padding-left: 0;
+    }
+
+    .carta__article2--definicion {
+        height: 100%;
+        margin-top: 10px;
+    }
+
+    .carta__article2--titulo1 h2 {
+        font-size: 40px;
+    }
+
+    .carta__article2--titulo {
+        font-size: 25px;
+    }
+
+    .carta__article2--titulo::first-letter {
+        font-size: 40px;
+    }
+
+    .carta__article2--concepto {
+        font-size: 17px;
+        padding-left: 15px;
+    }
+
+    .carta__article3 {
+        height: 1100px;
+
+    }
+
+    .carta--galeria--article3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: flex-start;
+    }
+
+    .carta__galeria6 {
+        height: 350px;
+        margin-left: 30px;
+        width: 50%;
+    }
+
+    .carta__galeria7 {
+        height: 350px;
+        width: 50%;
+    }
+
+    .carta__galeria8 {
+        background-image: url("imagenes/combinados\ \(2\).webp");
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        margin-left: 30px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .carta__galeria9 {
+        background-image: url("imagenes/rollos.jpg");
+        background-size: cover;
+        background-position: 30% 100%;
+        height: 350px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .carta__galeria10 {
+        background-image: url("imagenes/combinados\ \(1\).webp");
+        height: 350px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .carta__article3--definicion {
+        height: 100%;
+    }
+
+    .carta__article3--titulo1 h2 {
+        font-size: 40px;
+    }
+
+    .carta__article3--titulo {
+        font-size: 30px;
+    }
+
+    .carta__article3--titulo::first-letter {
+        font-size: 50px;
+    }
+
+    .carta__article3--concepto {
+        font-size: 18px;
+    }
+
+    .contacto__article1--img {
+        background-image: url("imagenes/koi.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 800px;
+    }
+
+    .contacto__article2 {
+        height: 550px;
+    }
+
+    .contacto_mapa {
+        height: 300px;
+    }
+
 }
 
 @media (min-width: 993px) {
@@ -968,7 +1610,7 @@ body {
 @media (min-width:1000px) {
 
     #contenedor {
-        height: 800px;
+        height: 900px;
         width: 101.5%;
     }
 
@@ -978,11 +1620,12 @@ body {
 
     .div__p {
         font-size: 25px;
+        padding-left: 35px;
     }
 
     .contenedor__items--titulo2 {
         padding: 10px 30px;
-        font-size: 65px;
+        font-size: 75px;
     }
 
     #imagen {
@@ -1006,11 +1649,11 @@ body {
     }
 
     .article__2--titulo3 {
-        font-size: 80px;
+        font-size: 90px;
     }
 
     .article__2--informacion {
-        font-size: 75px;
+        font-size: 85px;
     }
 
     .article__2--enlace5 {
@@ -1050,64 +1693,127 @@ body {
     #iconos {
         margin-left: 30px;
     }
-    
+
     .evento__article1--h3 {
         font-size: 60px;
         margin-bottom: 25px;
         text-transform: uppercase;
         font-weight: bold;
-    
+
     }
-    
+
     .evento__article1--titulo {
         font-size: 40px;
         margin-bottom: 10px;
         text-transform: uppercase;
     }
-    
+
     .evento__article1--titulo::first-letter {
         color: red;
         font-size: 70px;
     }
-    
+
     .evento__article1--concepto {
         margin-bottom: 40px;
         text-align: center;
     }
-    
+
     .evento__article2 {
         height: 650px;
     }
-    
+
     .evento__article2--h2 {
         height: 650px;
         font-size: 80px;
         padding-top: 15%;
     }
+
     .evento__article2--formulario--titulo {
         font-size: 40px;
+    }
+
+    .carta__article1--concepto {
+        font-size: 20px;
+    }
+
+    .carta__article2--concepto {
+        font-size: 19px;
+    }
+
+    .carta__article3--concepto {
+        font-size: 20px;
     }
 }
 
 @media (min-width:1200px) {
+    .navbar-expand-md .navbar-collapse {
+        font-size: 35px;
+    }
+    .navbar-brand{
+        font-size: 50px;
+    }
     #contenedor {
         width: 101%;
+        height: 1100px;
+    }
+
+    .contenedor__items1 {
+        height: 600px;
+    }
+
+    .div_titulo {
+        font-size: 70px;
+        font-weight: bold;
+        text-shadow: 0 10px #000;
+    }
+
+    .div__p {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    .div__enlace3 {
+        font-size: 30px;
+    }
+
+    .contenedor__items2 {
+        height: 600px;
+    }
+
+    .contenedor__items--titulo2 {
+        font-size: 100px;
+        font-weight: bold;
+        text-shadow: 0 10px #000;
+    }
+
+    .contenedor__items--enlace4 {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    .article__2 {
+        height: 500px;
     }
 
     .article__2--titulo3 {
         font-size: 100px;
+        font-weight: bold;
+        text-shadow: 0 10px #000;
     }
 
     .article__2--informacion {
         font-size: 90px;
+        text-shadow: 0 10px #000;
+        font-weight: bold;
     }
 
     .article__2--enlace5 {
-        margin-left: 47%;
+        margin-left: 45%;
+        font-size: 40px;
     }
 
     #footer {
-        height: 550px;
+        height: 600px;
     }
 
     .footer__div {
@@ -1202,37 +1908,40 @@ body {
     .quienessomos__article--div--concepto {
         font-size: 36px;
     }
+
     .evento__article1 {
         height: 800px;
     }
+
     .evento__article1--h2 {
         height: 750px;
         font-size: 80px;
         padding-top: 10%;
     }
+
     .evento__article1--h3 {
         padding-top: 30px;
         font-size: 70px;
     }
-    
+
     .evento__article1--titulo {
         font-size: 40px;
     }
-    
+
     .evento__article1--titulo::first-letter {
         font-size: 80px;
     }
-    
+
     .evento__article1--concepto {
         padding: 0 20px;
         text-align: center;
         font-size: 20px;
     }
-    
+
     .evento__article2 {
         height: 700px;
     }
-    
+
     .evento__article2--h2 {
         height: 700px;
         font-size: 100px;
@@ -1244,5 +1953,107 @@ body {
         padding-top: 10px;
         font-size: 40px;
     }
+
+    .carta__article1 {
+        height: 1100px;
+    }
+
+    .carta__galeria1 {
+        height: 700px;
+        margin-left: 15px;
+    }
+
+    .carta__galeria2 {
+        height: 400px;
+        margin-left: 15px;
+    }
+
+    .carta__article1--titulo1 h2 {
+        font-size: 60px;
+    }
+
+    .carta__article1--titulo {
+        font-size: 30px;
+    }
+
+    .carta__article1--titulo::first-letter {
+        font-size: 60px;
+    }
+
+    .carta__article1--concepto {
+        font-size: 20px;
+    }
+
+    .carta_galeria3 {
+        height: 350px;
+    }
+
+    .carta_galeria4 {
+        height: 350px;
+    }
+
+    .carta__article2--galeria {
+        height: 1100px;
+    }
+
+    .carta__article2--titulo1 h2 {
+        font-size: 60px;
+    }
+
+    .carta__article2--titulo {
+        font-size: 30px;
+    }
+
+    .carta__article2--titulo::first-letter {
+        font-size: 60px;
+    }
+
+    .carta__article2--concepto {
+        font-size: 20px;
+    }
+
+    .carta__article3 {
+        height: 1100px;
+    }
+
+    .carta__article3--titulo1 h2 {
+        font-size: 60px;
+    }
+
+    .carta__article3--titulo {
+        font-size: 30px;
+    }
+
+    .carta__article3--titulo::first-letter {
+        font-size: 60px;
+    }
+
+    .carta__article3--concepto {
+        font-size: 20px;
+    }
+
+    .contacto__article1 {
+        height: 900px;
+    }
+
+    .contacto__article1--img {
+        height: 900px;
+    }
+
+    .contacto__article1--formulario {
+        height: 900px;
+    }
+
+    .contacto__article2 {
+        height: 500px;
+    }
+
+    .contacto_mapa {
+        font-size: 70px;
+    }
+
+    .contacto_mapa::first-letter {
+        font-size: 90px;
+    }
+
 }
-  
