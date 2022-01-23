@@ -50,8 +50,8 @@ body {
 }
 
 .navbar-brand img {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
 }
 
 .navbar-brand {
@@ -192,7 +192,7 @@ body {
 }
 
 .article__2 {
-    background-image: url("imagenes/imagen3.jpg");
+    background-image: url("imagenes/portada5\ \(1\).jpg");
     background-position: 50% 20%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -467,7 +467,7 @@ body {
 }
 
 .carta__galeria1 {
-    background-image: url("imagenes/ceviche1.jpeg");
+    background-image: url("imagenes/ceviche1.jpg");
     height: 350px;
     width: 100%;
     background-position: center;
@@ -1241,9 +1241,9 @@ body {
 
 @media (min-width:768px) {
     .navbar-expand-md .navbar-collapse {
-        justify-content:flex-end;
-        
-        
+        justify-content: flex-end;
+
+
     }
 
     #contenedor {
@@ -1399,17 +1399,28 @@ body {
     }
 
     .carta__galeria1 {
-        height: 500px;
+        height: 700px;
+        border: 3px solid red;
+        margin-left: 15px;
     }
 
     .carta__galeria2 {
         display: flex;
-        height: 500px;
+        height: 300px;
+        width: 90%;
         background-position: 50% 100%;
         background-size: cover;
-        margin-left: 8px;
+        background-repeat: no-repeat;
+        margin-left: 40px;
         margin-top: 5px;
         border-radius: 10px;
+        border: 3px solid red;
+        transition: all 500ms ease;
+    }
+
+    .carta__galeria2:hover {
+        transform: scale(1.2);
+
     }
 
     .carta__article1--definicion {
@@ -1430,35 +1441,73 @@ body {
 
     .carta__article1--concepto {
         font-size: 17px;
+        margin-left: 5px;
     }
 
     .carta__article2--galeria {
-        height: 1000px;
+        height: 970px;
         display: flex;
         flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+    .carta__article2--div {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
     }
 
     .carta_galeria3 {
-        height: 300px;
+        height: 400px;
         margin-top: 10px;
-
+        border: 3px solid red;
     }
 
     .carta_galeria4 {
         height: 300px;
-        margin-top: 10px;
-        padding-left: 50px;
+        margin-top: 20px;
+        margin-left: 20px;
+        background-repeat: no-repeat;
+        border: 3px solid red;
+        transition: all 500ms ease;
+    }
+
+    .carta_galeria4:hover {
+        transform: scale(1.2);
     }
 
     .carta_galeria5 {
         display: flex;
-        height: 370px;
+        height: 300px;
         width: 100%;
         background-size: cover;
         background-position: center;
         border-radius: 10px;
-        margin-top: 10px;
-        margin-left: 10px;
+        margin-top: 20px;
+        margin-left: 30px;
+        background-repeat: no-repeat;
+        border: 3px solid red;
+        transition: all 500ms ease;
+    }
+
+    .carta_galeria5:hover {
+        transform: scale(1.2);
+    }
+
+    .carta_galeria11 {
+        background-image: url("imagenes/niguiris\ 3.0.jpg");
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        background-position: 20% 20%;
+        border: 3px solid red;
+        margin-top: 20px;
+        transition: all 500ms ease;
+    }
+
+    .carta_galeria11:hover {
+        transform: scale(1.2);
     }
 
     .col-md-6 {
@@ -1500,14 +1549,28 @@ body {
     }
 
     .carta__galeria6 {
-        height: 350px;
+        height: 300px;
         margin-left: 30px;
         width: 50%;
+        border: 3px solid red;
+        margin-top: 10px;
+        transition: all 500ms ease;
+    }
+
+    .carta__galeria6:hover {
+        transform: scale(1.2);
+
     }
 
     .carta__galeria7 {
-        height: 350px;
-        width: 50%;
+        height: 300px;
+        border: 3px solid red;
+        margin-top: 10px;
+        transition: all 500ms ease;
+    }
+
+    .carta__galeria7:hover {
+        transform: scale(1.2);
     }
 
     .carta__galeria8 {
@@ -1518,15 +1581,29 @@ body {
         margin-left: 30px;
         margin-top: 10px;
         border-radius: 10px;
+        border: 3px solid red;
+        transition: all 500ms ease;
+    }
+
+    .carta__galeria8:hover {
+        transform: scale(1.2);
     }
 
     .carta__galeria9 {
-        background-image: url("imagenes/rollos.jpg");
+        background-image: url("imagenes/Diseño\ sin\ título.webp");
         background-size: cover;
         background-position: 30% 100%;
+        background-repeat: no-repeat;
         height: 350px;
         margin-top: 10px;
         border-radius: 10px;
+        border: 3px solid red;
+        transition: all 500ms ease;
+    }
+
+    .carta__galeria9:hover {
+        transform: scale(1.2);
+
     }
 
     .carta__galeria10 {
@@ -1534,9 +1611,12 @@ body {
         height: 350px;
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
         border-radius: 10px;
-        margin-top: 10px;
-        margin-left: 40px;
+        margin-top: 20px;
+        margin-left: 30px;
+        object-fit: cover;
+        border: 3px solid red;
     }
 
     .carta__article3--definicion {
@@ -1732,12 +1812,22 @@ body {
         font-size: 40px;
     }
 
+    .carta__article2--galeria{
+        height: 1030px;
+    }
+    .carta_galeria11{
+        height: 250px;
+    }
+
     .carta__article1--concepto {
         font-size: 20px;
     }
 
     .carta__article2--concepto {
         font-size: 19px;
+    }
+    .carta__article3 {
+        height: 1050px;
     }
 
     .carta__article3--concepto {
@@ -1749,9 +1839,11 @@ body {
     .navbar-expand-md .navbar-collapse {
         font-size: 35px;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         font-size: 50px;
     }
+
     #contenedor {
         width: 101%;
         height: 1100px;
@@ -1792,17 +1884,18 @@ body {
     }
 
     .article__2 {
-        height: 500px;
+        height: 600px;
     }
 
     .article__2--titulo3 {
-        font-size: 100px;
+        font-size: 110px;
+        margin-top: 10px;
         font-weight: bold;
         text-shadow: 0 10px #000;
     }
 
     .article__2--informacion {
-        font-size: 90px;
+        font-size: 100px;
         text-shadow: 0 10px #000;
         font-weight: bold;
     }
@@ -1965,7 +2058,7 @@ body {
 
     .carta__galeria2 {
         height: 400px;
-        margin-left: 15px;
+        margin-left: 50px;
     }
 
     .carta__article1--titulo1 h2 {
@@ -1985,11 +2078,20 @@ body {
     }
 
     .carta_galeria3 {
-        height: 350px;
+        height: 400px;
     }
 
     .carta_galeria4 {
         height: 350px;
+        margin-left: 50px;
+    }
+    .carta_galeria5{
+        height: 350px;
+    }
+    .carta_galeria11{
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 10px;
     }
 
     .carta__article2--galeria {
@@ -2013,7 +2115,7 @@ body {
     }
 
     .carta__article3 {
-        height: 1100px;
+        height: 1000px;
     }
 
     .carta__article3--titulo1 h2 {
